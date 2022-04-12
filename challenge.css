@@ -1,0 +1,89 @@
+body{
+  margin:auto;
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  }
+
+/*cambio font*/
+*{
+  font-family: sans-serif;
+}
+
+.contenitore{
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ /*aggiungo lo sfondo nero che deve essere trasparente */
+.sfondo{
+  border-radius: 10px;
+  display: grid;
+  justify-items: center;
+  margin-top: 2%;
+  background-color: black;
+  width: 1400px;
+  opacity: 0.6;
+
+}
+  /* faccio in modo che sia tutto centrato*/
+.logo{
+  margin-top: 3%;
+  display: grid;
+  justify-items: center;
+}
+ /* colore dei primi font*/
+h1{
+  color: Yellow;
+  font-size: 30px;
+}
+
+ /* faccio in modo che i vari botton sia sulla stessa riga */
+ .inline {
+  background-color: yellow;
+  padding: 15px;
+  width: 215%;
+  display: inline-block;
+}
+
+/* inizio a scirvere i dati sui monopattini */
+
+span{
+  color: white;
+  font-size: 20px;
+}
+p{
+  color: white;
+  font-size: 20px;
+}
+
+ /*personalizzo la carica dei vari monopattini*/
+.carica1{
+  border-radius: 10px;
+  color: orange;
+  background-color: orange;
+  width: 350px;
+}
+.carica2{
+  border-radius: 10px;
+  color: red;
+  background-color: red;
+  width: 200px;
+}
+.carica3{
+  border-radius: 10px;
+  color: green;
+  background-color: green;
+  width: 550px;
+}
+
+/*per fare in modo di posizionare i dati sui monopattini a sinistra
+per non averli centrati come il logo*/
+.posizione{
+    width: 600px;
+    margin-top: 25px;
+    position: relative;
+    right: 170px;
+
+}
